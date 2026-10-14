@@ -1,15 +1,19 @@
 # BÁO CÁO BÀI TẬP KIỂM THỬ HIỆU NĂNG VỚI APACHE JMETER
 
-## 1. Thông tin bài tập
-* **Công cụ sử dụng:** Apache JMeter.
-* **Mục tiêu:** Kiểm tra tải và đánh giá hiệu năng của API với 10 người dùng ảo đồng thời.
+## 1. Thông tin sinh viên & Bài tập
+- **Họ và tên:** Đỗ Vân Khánh
+- **Mã sinh viên:** 23013929
+- **Công cụ sử dụng:** Apache JMeter.
+- **API mục tiêu:** `https://jsonplaceholder.typicode.com/posts`
+- **Mục tiêu:** Kiểm tra tải và đánh giá hiệu năng của API với 10 người dùng ảo đồng thời.
 
 ---
 
 ## 2. Cấu hình kịch bản kiểm thử (Test Plan)
-* **Number of Threads (Users):** 10
-* **Ramp-up Period:** 5 giây
-* **Loop Count:** 1
+- **Number of Threads (Users):** 10
+- **Ramp-up Period:** 5 giây
+- **Loop Count:** 1
+- **File kịch bản kiểm thử:** `threadgroup.jmx` (đã được lưu và tải lên repository)
 
 ---
 
@@ -30,7 +34,7 @@ Bảng tổng hợp các chỉ số hiệu năng thu được:
 ---
 
 ## 4. Đánh giá và Kết luận
-* **Tỷ lệ lỗi (Error %):** 0.00% (Hệ thống chạy ổn định, không có request nào bị lỗi).
-* **Thời gian phản hồi trung bình (Average):** ~256 ms.
-* **Lưu lượng xử lý (Throughput):** 2.2 requests/sec.
-* **Kết luận chung:** Hệ thống đáp ứng tốt ở mức tải kiểm thử ban đầu, thời gian phản hồi nhanh và an toàn.
+- **Tỷ lệ lỗi (Error %):** 0.00% (Hệ thống chạy ổn định, không có request nào bị lỗi).
+- **Thời gian phản hồi trung bình (Average):** ~256 ms.
+- **Lưu lượng xử lý (Throughput):** 2.2 requests/sec.
+- **Kết luận chung:** Hệ thống đáp ứng tốt ở mức tải kiểm thử ban đầu, thời gian phản hồi nhanh và an toàn.
